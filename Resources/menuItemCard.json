@@ -1,0 +1,46 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Menu Item",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Dark"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Raise Ticket",
+          "data": "Raise Ticket"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Show Ticket Status",
+          "data": "Show Ticket Status"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Help",
+          "data": "Help"
+        }
+      ]
+    }
+  ]
+}
